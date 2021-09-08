@@ -1,0 +1,73 @@
+.carousel, .carousel-2 {
+    margin-left: 200px;
+}
+.carousel, .carousel-container, .carousel-2, .carousel-container-2  {
+    position: relative;
+    width: 64%;
+}
+.carousel-next, .carousel-back {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none; 
+    top: calc(50% - 10px);
+    cursor: pointer;
+    line-height: 30px;
+    background: none;
+    color: #000059;
+    opacity: 50%;
+}
+.carousel-back {
+    left: -30px;
+    color: #00EBAA;
+}
+.carousel-next {
+    right: -30px;
+    color: #00EBAA;
+}
+.carousel-list, .carousel-list-2 {
+    border-radius: 10px;
+    border: #00EBAA solid 1px;
+    height: 350px;
+}
+.carousel-element, .carousel-element-2 {
+    height: 300px !important;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    justify-content: space-between;
+
+}
+.carousel-element-text,  .carousel-element-image, .carousel-element-text-2,  .carousel-element-image-2 {
+    display: flex;
+    position: relative;
+    top: 50px;
+    width: 45%;
+    height: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    border: #00EBAA solid 1px;
+    
+}
+.carousel-element-image img {
+    position: relative;
+    bottom: 5px;
+    width: -webkit-fill-available;
+    margin-right: 0 10px;
+}
+.carousel-indicators, .carousel-indicators {
+    position: absolute;
+    justify-content: initial;
+    margin:  -45px 50px;
+}
+.glider-dot.active {
+    background-color: #00EBAA;
+}
+.carousel-title, .carousel-title-2   {
+    position: absolute;
+    width: 27%;
+    bottom: 210px;
+    content: inherit;
+    color: #000059;
+}
