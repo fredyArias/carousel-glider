@@ -8,7 +8,6 @@ window.addEventListener('load', function(){
         prev: '.carousel-back',
         next: '.carousel-next'
         }    
-    
     });
 });
 
